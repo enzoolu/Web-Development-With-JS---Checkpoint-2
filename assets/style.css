@@ -7,7 +7,11 @@
 }
 
 body {
-    background-color: rgb(146, 143, 243);
+    height: 100vh;
+    background: rgb(171,83,207);
+    background: linear-gradient(145deg, rgba(171,83,207,1) 20%, rgba(146,143,243,1) 80%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
