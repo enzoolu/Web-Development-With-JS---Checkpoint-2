@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(146, 143, 243);
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Readex Pro', 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    width: 250px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: .3s;
+    border: none;
+}
+
+button:hover {
+    font-size: 18px;
+    background-color: rgb(90, 218, 90);
+    transition: .2s;
+}
