@@ -28,7 +28,7 @@ function verificacoes() {
                 icon: 'error'
             }
         );
-        verificacao++
+        verificacao++;
     };
 
     for (let i = 0; i < notas.length; i++) {
@@ -40,14 +40,14 @@ function verificacoes() {
                     icon: 'error'
                 }
             );
-            verificacao++
+            verificacao++;
         };
     };
 
     if (verificacao == 0) {
         media();
     } else {
-        verificacao = 0
+        verificacao = 0;
     }
 };
 
