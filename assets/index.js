@@ -11,7 +11,7 @@ document.getElementById('confirmarNotas').addEventListener('click', e => {
 });
 
 function verificacoes() {
-    let verificacao = 0
+    let verificacao = 0;
 
     nota1 = parseFloat(document.getElementById('nota1').value);
     nota2 = parseFloat(document.getElementById('nota2').value);
