@@ -64,7 +64,7 @@ function media() {
                 text: 'Parabéns!!!',
                 icon: 'success'
             });
-    } else if (media < 6 && media >= 4) {
+    } else if (media < 6 && media >= 5) {
         inserirResultado.innerHTML = 'Resultado: Exame';
         Swal.fire(
             {
